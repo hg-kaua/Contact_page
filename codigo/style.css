@@ -1,0 +1,30 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 70px;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+    max-width: 100%;  
+}
+input { 
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+#message {
+    padding-bottom: 50px;
+}
