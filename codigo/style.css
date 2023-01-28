@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 body {
+    background: linear-gradient(to bottom, #67DF9B, #20C4AE);
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Muli';
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,22 +13,41 @@ body {
 }
 
 .container {
+    background: white;
     position: relative;
     border: 3px solid black;
     border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
     padding: 50px 70px;
     justify-content: center;
     text-align: center;
-    width: 600px;
+    width: 560px;
     max-width: 100%;  
 }
+.container h2 {
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.container p {
+    margin-bottom: 55px;
+}
 input { 
-    width: 100%;
+    width: 524px;
+    margin-left: 0px;
     padding: 15px;
     margin-bottom: 10px;
 }
 #message {
     padding-bottom: 50px;
+}
+button {
+    background: linear-gradient(to left, #67DF9B, #20C4AE);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 16px 31px -17px rgba(0,31,97,0.6);
+    width: 100%;
+    padding: 15px;
+    color: white;
 }
