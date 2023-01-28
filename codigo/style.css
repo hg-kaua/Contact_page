@@ -39,6 +39,10 @@ input {
     padding: 15px;
     margin-bottom: 10px;
 }
+input:focus{
+    outline: 0;
+    border: 1px solid #20C4AE;
+}
 #message {
     padding-bottom: 50px;
 }
@@ -50,4 +54,10 @@ button {
     width: 100%;
     padding: 15px;
     color: white;
+    transition: transform 1s;
+}
+button:hover {
+    background-color: white;
+    opacity: 80%;
+    transform: scale(0.99);
 }
